@@ -19,9 +19,49 @@
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/bayc"
         android:layout_below="@id/imageView3"
+        android:layout_marginTop="39dp"
         android:contentDescription="@string/imageView"
-        />
+        app:srcCompat="@drawable/bayc" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_gravity="end|bottom"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="-136dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="@string/btn2"
+        android:src="@drawable/ic_launcher_foreground" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_gravity="center|bottom"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="-110dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="@string/btn2"
+        android:src="@drawable/ic_launcher_foreground" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_gravity="center|bottom"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="-110dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="@string/btn2"
+        android:src="@drawable/ic_launcher_foreground" />
+
 
 </RelativeLayout>

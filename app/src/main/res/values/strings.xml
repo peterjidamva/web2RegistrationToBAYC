@@ -2,4 +2,5 @@
     <string name="app_name">Java1010</string>
     <string name="imageView">BAYC</string>
     <string name="textview">DRIFTWOOD</string>
+    <string name="btn2">CALL BAYC</string>
 </resources>
