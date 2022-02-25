@@ -33,6 +33,15 @@
         android:layout_below="@+id/editTextName"
         android:padding="20dp"
         />
+    <RadioButton
+        android:id="@+id/radbihh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lastName"
+
+        >
+
+    </RadioButton>
 
     <EditText
         android:id="@+id/userName"
@@ -40,6 +49,7 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:hint="Username"
+        android:inputType="textPassword"
         android:layout_below="@+id/lastName"
         android:padding="20dp"
         />
@@ -83,6 +93,8 @@
         android:text="Drift"
 
         />
+
+
 
     <TextView
         android:textColor="@color/blue"

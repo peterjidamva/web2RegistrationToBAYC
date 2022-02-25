@@ -22,7 +22,16 @@
         android:layout_below="@id/imageView3"
         android:layout_marginTop="39dp"
         android:contentDescription="@string/imageView"
-        app:srcCompat="@drawable/bayc" />
+         />
+   <TextView
+       android:id="@+id/showMe"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+
+       android:layout_marginTop="59dp"
+       android:layout_below="@+id/imageView"
+></TextView>
+
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab1"
